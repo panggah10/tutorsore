@@ -2,5 +2,10 @@
 
 echo "Hello World";
 <form method=POST action="login.php">
+<label for="username">Username:</label>
+<input type="text" id="username" name="username">
+<label for="password">Password:</label>
+<input type="password" id="password" name="password">
+	
   </form>
 ?>
